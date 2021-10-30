@@ -1,0 +1,35 @@
+header {
+    height: 60px;
+    background-image: linear-gradient($primary-color, $background-color);
+
+    
+    h1 {
+        
+        font-family: 'Dhurjati', sans-serif;
+        font-size: 40px;
+        padding-bottom: 20px;
+        color: $font-color;
+        text-align: center;
+        
+        a {
+            font-family: 'Dhurjati', sans-serif;
+            text-decoration: none;
+            color: whitesmoke;
+            cursor: pointer;
+            padding: 5px;
+            
+        }
+        a:hover {
+            color: $secondary-color;
+            opacity: 0.4;
+        }
+    }
+
+
+  }
+  @media (min-width: 768px) {
+      header h1 {
+          text-align: left;
+          padding-left: 80px;
+      }
+  }

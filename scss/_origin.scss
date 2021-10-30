@@ -1,0 +1,19 @@
+.mainContent {
+    text-align: center;
+    h2 {
+        padding-top: 10px;
+    }
+    p {
+        font-weight: lighter;
+       width: 90%;
+       margin: 0 auto;
+       padding-bottom: 10px;
+    }
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    h2 {
+      margin: 0 auto;
+    };
+  }
+};

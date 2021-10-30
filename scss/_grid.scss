@@ -1,0 +1,7 @@
+//GRID 
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: $background-color
+}

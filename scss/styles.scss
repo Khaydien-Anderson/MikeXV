@@ -1,0 +1,107 @@
+@import 'variables', 'footer', 'grid', 'header', 'contact', 'nav', 'origin', 'home';   
+:root {
+    --white: #afafaf;
+    --red: #e31b23;
+    --bodyColor: #292a2b;
+    --borderFormEls: hsl(0, 0%, 10%);
+    --bgFormEls: hsl(0, 0%, 14%);
+    --bgFormElsFocus: hsl(0, 7%, 20%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, serif;
+    outline: none;
+}
+
+
+main {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .biopic {
+      width: 60%;
+      img {
+      z-index: 1;
+  };
+}
+  figure {
+      padding-bottom: 10px;
+  figcaption {
+      color: $font-color;
+      font-size: 15px;
+      padding-bottom: 10px;
+  }
+
+  };
+
+}
+
+
+
+
+
+
+//Producer page
+.vidProjects {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+  padding: 20px;
+
+  
+  .videoPlayer {
+    padding: 10px;
+    position: relative;
+  display: inline-block;
+  }
+  .play-button {
+    position: absolute;
+    
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 100%;
+    top:40%;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+    cursor: pointer;
+  }
+  .play-button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+  }
+  .play-button:hover {
+    background-color: black;
+  }
+  
+  img {
+    width: 80%;
+    opacity: 0.5;
+  }
+
+  .credits {
+    
+    width: 60%;
+    margin: 0 auto;
+    h3 {
+      color:whitesmoke;
+      padding: 5px 10px;
+      p {
+        font-family: 'Dhurjati', sans-serif;
+      }
+
+    }
+  }
+}
+
+

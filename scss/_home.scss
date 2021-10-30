@@ -1,0 +1,76 @@
+//HOME PAGE
+
+.credits {
+p {
+  color: #b3b2b2;
+  
+}
+
+}
+
+.photoGrid {
+  .pic1 {
+    background: url(/photos/silent_world1.jpeg);  
+  }  
+
+  .pic2 {
+    background: url(/photos/silent_world2.jpeg);
+  }
+  .pic3 {
+    background: url(/photos/silent_world3.jpeg);
+  }
+  .pic4 {
+    background: url(/photos/silent_world4.jpeg);
+  }
+
+      .pic1,
+      .pic2,
+      .pic3,
+      .pic4 {
+        width: 180px;
+        height: 180px;
+        margin: 5px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        h3 {
+          margin: 0 auto;
+          color: transparent;
+        }
+      }
+
+      .pic1:hover,
+      .pic2:hover,
+      .pic3:hover,
+      .pic4:hover{
+      opacity: 0.5;
+        h3 {
+          color: whitesmoke;
+        }
+        
+        cursor: pointer;
+      }
+    
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  
+    
+  };
+
+  .video-container {
+      display: flex;
+      width: 90vw;
+      margin: 0 auto;
+      video {
+        margin: 0 auto;
+          width: 87vw;
+          max-width: 750px;
+          
+      }
+
+  };
